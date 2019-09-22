@@ -1,22 +1,103 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
+
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin: 25px auto;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+
+.logo {
+  margin: 20px 0 0 20px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+}
+
+.specials-numbers {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.operator-container {
+  display: flex;
+  flex-direction: column;
+  width: 14%;
+}
+
+.special-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.number-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+button {
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: 0;
+  box-shadow: -2px 3px 2px black;
+}
+
+.special-button {
+  background: #00f;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+.number-button {
+  background: #00008b;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.operator-button {
+  background: teal;
+}
+.number-container button:nth-child(10) {
+  width: 130px;
+  border-radius: 32px;
+}
+
+.operator-container button:last-child {
+  height: 70px;
+  width: 70px;
+  margin-top: 12px;
+  font-size: 2.2rem;
+  background: #005252;
+}

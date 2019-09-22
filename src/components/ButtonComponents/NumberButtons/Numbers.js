@@ -17,7 +17,7 @@ const Numbers = () => {
   ))
 
   return (
-    <div>
+    <div className='number-container'>
        {buttons}
     </div>
   );

@@ -14,7 +14,7 @@ const Operators = () => {
   ))
 
   return (
-    <div>
+    <div className='operator-container'>
        {buttons}
     </div>
   );
