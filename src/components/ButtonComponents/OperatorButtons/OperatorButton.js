@@ -1,9 +1,16 @@
 import React from "react";
 
-const OperatorButton = (props) => {
+const OperatorButton = props => {
   return (
     <>
-      <button className='operator-button'> {props.buttonData} </button>
+      <button
+        className="operator-button"
+        onClick={event => props.handleClick(event.target.value)}
+        value={props.value}
+      >
+        {" "}
+        {props.buttonData}{" "}
+      </button>
     </>
   );
 };
