@@ -41,7 +41,6 @@ function App() {
       case "+":
       case "-":
       case "/": {
-        console.log(operatorFlag);
         if (!operatorFlag) {
           setCurrentNumber(currentNumber + buttonValue);
           setOperatorFlag(buttonValue);
